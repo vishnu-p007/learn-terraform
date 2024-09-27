@@ -18,5 +18,6 @@ variable "instance_name" {
 
 variable "ami" {
   description = "EC2 instance ami"
+  default     = "ami-830c94e3"
 }
 

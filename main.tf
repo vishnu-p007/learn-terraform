@@ -40,7 +40,7 @@ resource "aws_instance" "app_server" {
 */
 
 resource "aws_instance" "app_server2" {
-  ami           = "${var.ami}"
+  ami           = var.ami
   instance_type = "t2.micro"
 
   tags = {

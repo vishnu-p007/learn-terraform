@@ -16,3 +16,7 @@ variable "instance_name" {
   default     = "Provisioned by Terraform"
 }
 
+variable "ami" {
+  description = "EC2 instance ami"
+}
+
